@@ -3,7 +3,7 @@
   become: yes
 
   tasks:
-    - name: Perform a dist-upgrade.
+    - name: Perform a upgrade.
       ansible.builtin.apt:
         upgrade: yes
         update_cache: yes
